@@ -84,7 +84,6 @@ package
 			snapshotTransform.scale(512/video.width, 512/video.height);
 			
 			stage3D = stage.stage3Ds[0];
-			stage3D.viewPort = new Rectangle (0, 0, originalWidth, originalHeight); 
 			stage3D.addEventListener(Event.CONTEXT3D_CREATE, context3DCreateHandler);
 			stage3D.requestContext3D(); 
 		}
